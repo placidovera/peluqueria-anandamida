@@ -1,0 +1,443 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+  /*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+/*html en todas las paginas*/
+html{
+    font-size: 62.5%;
+   background-color: rgb(34, 33,34);
+    font-family:"Nunito Sans", sans-serif;
+    text-shadow: 1px 2px 7px rgba(0,0, 0,1);
+  
+}/*Header en todas las paginas*/
+header{
+    background-color:rgb(255,95, 95);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    width: 55%;
+  
+}
+header ul{
+    margin-right: 10px;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+/*body todas las paginas*/
+body{
+    background-image: url(../images/fondo.png);
+}
+/*elementos para todas las paginas*/
+ul{
+    font-size: 2.5rem;
+    list-style-type: none;
+}
+li :hover{
+        border-radius: 20px;
+        background-color: black;
+    padding: 10px;
+}
+a{
+        font-size: 3rem;
+        text-decoration: none;
+}
+p{
+    font-size: 2rem;
+    padding: 30px;
+}
+h1{
+    padding: 15px;
+    text-align:center;
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+h2{
+    border: solid;
+    color: rgb(255, 95, 95);
+    border-radius: 20px;
+    background-color: black ;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+div{
+    padding: 30px;
+}
+/*pagina de inicio grid*/
+.index-grid{
+display:grid;
+grid-template-areas:
+"titulos1 titulos1 titulos1"
+". pelu ."
+"titulo2 titulo2 titulo2"
+" trabajo trabajo trabajo";
+
+grid-template-columns:30% 30% 30% ;
+grid-template-rows: 100px 500px 120px 450px;
+justify-content: center;
+}
+.titulo2{
+    grid-area: titulos1;
+
+}
+.titulos{
+    grid-area: titulo2;
+    display: flex;
+    justify-content: space-around;
+}
+.cont-pelu{
+    grid-area: pelu;
+     display: flex;
+    justify-content: center;
+}
+
+.trabajos{
+    grid-area: trabajo;
+background-color: rgba(255, 95,95, 0.80) ;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*pagina nosotros grid*/
+
+.nosotros-grid{
+    display: grid;
+grid-template-areas: 
+"titulo3 titulo3 titulo3"
+"imagenes imagenes imagenes"
+"historia historia historia";
+
+grid-template-columns: 0% 70% 30%;
+grid-template-rows: 100px 600px 400px;
+justify-content: center;
+
+}
+.galeria{
+
+  grid-area: titulo3;
+}
+.imagenes{
+grid-area: imagenes;
+}
+.historia{
+    grid-area: historia;
+    background-color: rgba(255, 95,95, 0.80) ;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*pagina precios grid*/
+.precios-grid{
+    display: grid;
+grid-template-areas:
+
+"titulo titulo titulo"
+" precios precios ."
+". . .";
+grid-template-columns: 0% 70% 30%;
+grid-template-rows: 100px 400px 100px;
+justify-content: center;
+
+}
+.titulo1{
+grid-area: titulo;
+
+
+}
+.precio{
+
+    grid-area: precios;
+}
+/*tabla en pagina precios*/
+
+table{
+    border-radius: 20px;
+    background-color: rgba(255, 95,95, 0.80) ;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+/*pagina de consultas grid*/
+.consultas-grid{
+    display:grid;
+    grid-template-areas:
+    "titulos5 titulos5 titulos5"
+    "titulos6 titulos6 titulos6"
+    "area area area"
+    "boton1 . boton2";
+    
+    grid-template-columns:30% 30% 30% ;
+    grid-template-rows: 100px 70px 300px 60px;
+    justify-content: center;
+}
+.consultas{
+    grid-area: titulos5;
+}
+.titulo-consultas{
+
+    grid-area: titulos6;
+}
+.t-area{
+    grid-area: area;
+    display: flex;
+    justify-content: center;
+
+}
+.enviar{
+    color: black;
+    grid-area: boton1;
+    border-radius: 20px;
+    margin: 10px;
+}
+.reset{
+    color:black;
+    grid-area: boton2;
+    border-radius: 20px;
+    margin: 10px;
+}
+    /*body pagina comentarios*/
+    textarea{
+        background-color: rgb(44, 44, 44);
+        color: white;
+        font-size: 2rem;
+     }
+
+
+/*Imput pagina contacto*/
+.div-input{
+    border-radius: 20px;
+width: 50%;
+    background-color: rgba(255, 95,95, 0.80) ;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: rgb(34, 33,34);
+    width: 30%;
+    height:50px;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+}
+
+/*Imagenes*/
+img{
+    width: 300px;
+}
+.ana{
+width: 400px;
+margin: 5px;
+}
+.peluqueria{
+border: solid;
+width: 500px;
+}
+.imagenes{
+    display: flex;
+    justify-content: space-around;
+}
+.imagenes{
+    width: 300px;
+}
+
+.ubi{
+    width: 3%;
+    border-radius: 100%;
+}
+/*bootstrap*/
+
+.navbar{
+    background-color:rgb(255,95, 95);
+ width: 100%;
+    height: 80px;
+
+}
+.nav-link{
+    color: white;
+align-items: flex-end;
+font-size: 3rem;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: end;
+    position: sticky;
+    top: 0px;
+}
+
+/*Pie de Pagina en todas las paginas*/
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100px;  
+ }
+ footer ul{
+font-size: 1rem;
+margin-right: 10px;
+height: 100%;
+list-style-type: none;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+ }
+ /*Mobile pagina inicio grid*/
+@media(max-width :480px){
+
+ .index-grid {
+        display:grid;
+        grid-template-areas:
+        "titulos1"
+        "pelu "
+        "titulo2"
+        " trabajo";
+        grid-template-columns:100%;
+        grid-template-rows: 100px 300px 60px 220px;
+        justify-content: left;
+
+    }
+    
+    .peluqueria{
+        border: solid;
+        width: 350px;
+
+    }  
+    
+header{
+    width: 412px;
+flex-direction: column;
+
+}
+nav{
+    width: 100%;
+}
+a{
+    font-size: 1.1rem;
+}
+ul{
+font-size: 1rem;
+}
+.ana{
+    width: 400px;
+}
+.cont-pelu{
+    justify-content: right;
+    padding: 30px;
+}
+.trabajos{
+    width: 412px;
+
+}
+.titulos{
+    display: flex;
+    justify-content: left;
+}
+div{
+    padding: 10px;
+}
+h2{
+    height: 40px;
+    font-size: 1.6rem;
+    letter-spacing: .7px;
+}
+img{
+    width: 390px;
+}
+.imagenes{
+    flex-direction: column;
+    height: 150px;
+}
+/*Grid nosotros mobile*/
+.nosotros-grid{
+    display: grid;
+grid-template-areas: 
+"titulo3"
+"imagenes"
+"ubi"
+"historia";
+
+grid-template-columns:100%;
+grid-template-rows: 100px 1600px 900px;
+justify-content: center;
+}
+.ubis{
+    width: 390px;
+    grid-area: ubi;
+}
+.titulo-historia{
+    display: none;
+}
+.nena{
+    display: none;
+}
+.nene{
+    display: none;
+}
+.mapa{
+    display: none;
+}
+p{
+    font-size: 1.5rem;
+}
+.historia{
+    background-color: transparent;
+}  
+/*pagina precios grid*/
+.precios-grid{
+    display: grid;
+grid-template-areas:
+
+"titulo"
+" precios";
+
+grid-template-columns:100%;
+grid-template-rows: 100px 200px;
+}
+/*tabla en pagina precios*/
+
+table{
+    font-size: 1.1rem;
+    padding: 5px;
+}
+.consultas-grid{
+    display:grid;
+    grid-template-areas:
+    "titulos5 titulos5 titulos5"
+    "titulos6 titulos6 titulos6"
+    "area area area"
+    "boton1 . boton2";
+    
+    grid-template-columns:30% 30% 30% ;
+    grid-template-rows: 150px 70px 300px 60px;
+    justify-content: center;
+}
+.div-input{
+width: 99%;
+}
+}
+@media(min-width :481px)and(max-width :769px){
+}
