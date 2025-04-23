@@ -1,8 +1,6 @@
-
+/*Letra google font*/
 @import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
   /*reset*/
-
 *{
     margin: 0;
     padding: 0;
@@ -94,7 +92,6 @@ justify-content: center;
 }
 .titulo2{
     grid-area: titulos1;
-
 }
 .titulos{
     grid-area: titulo2;
@@ -106,16 +103,13 @@ justify-content: center;
      display: flex;
     justify-content: center;
 }
-
 .trabajos{
     grid-area: trabajo;
 background-color: rgba(255, 95,95, 0.80) ;
     display: flex;
     justify-content: space-around;
 }
-
 /*pagina nosotros grid*/
-
 .nosotros-grid{
     display: grid;
 grid-template-areas: 
@@ -140,9 +134,7 @@ grid-area: imagenes;
     background-color: rgba(255, 95,95, 0.80) ;
     display: flex;
     justify-content: space-around;
-
 }
-
 /*pagina precios grid*/
 .precios-grid{
     display: grid;
@@ -158,22 +150,17 @@ justify-content: center;
 }
 .titulo1{
 grid-area: titulo;
-
-
 }
 .precio{
-
     grid-area: precios;
 }
 /*tabla en pagina precios*/
-
 table{
     border-radius: 20px;
     background-color: rgba(255, 95,95, 0.80) ;
     font-size: 3rem;
     padding: 10px;
 }
-
 /*pagina de consultas grid*/
 .consultas-grid{
     display:grid;
@@ -218,8 +205,6 @@ table{
         color: white;
         font-size: 2rem;
      }
-
-
 /*Imput pagina contacto*/
 .div-input{
     border-radius: 20px;
@@ -244,7 +229,6 @@ input{
     padding: 30px;
     margin: 10px;
 }
-
 /*Imagenes*/
 img{
     width: 300px;
@@ -252,6 +236,10 @@ img{
 .ana{
 width: 400px;
 margin: 5px;
+}
+.ana-bootstraps{
+    width: 400px;
+    margin: 5px;
 }
 .peluqueria{
 border: solid;
@@ -270,7 +258,6 @@ width: 500px;
     border-radius: 100%;
 }
 /*bootstrap*/
-
 .navbar{
     background-color:rgb(255,95, 95);
  width: 100%;
@@ -288,7 +275,6 @@ font-size: 3rem;
     position: sticky;
     top: 0px;
 }
-
 /*Pie de Pagina en todas las paginas*/
 footer{
     background-color: black;
@@ -343,6 +329,10 @@ font-size: 1rem;
 }
 .ana{
     width: 400px;
+}
+.ana-bootstraps{
+    margin: -20px;
+
 }
 .cont-pelu{
     justify-content: right;
