@@ -1,0 +1,47 @@
+/*Header en todas las paginas*/
+header{
+    background-color:$color-violeta;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+     ul{
+     margin-right: 10px;
+     height: 100%;
+     list-style-type: none;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+}
+nav{
+    width: 55%;
+}
+/*Pie de Pagina en todas las paginas*/
+footer{  background: linear-gradient(to right, rgba(0, 0, 0, 0.6666666667), transparent, rgba(0, 0, 0, 0.6666666667));
+    background-color:$color-rosa;
+    display: flex;
+    align-items: center;
+    height: 300px;  
+    ul{
+     font-size: 1rem;
+     margin-right: 10px;
+     height: 100%;
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     padding-top: 5%;
+     margin: 2%;
+  
+    }
+}
+li{  list-style-type: none;
+   a{
+        color: white;
+     }
+}
+.vacio{
+    width: 100%;
+    height: 100%;
+}

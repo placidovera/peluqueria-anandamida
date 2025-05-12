@@ -1,0 +1,24 @@
+/*bootstrap*/
+.navbar{
+    background-color:$color-violeta;
+    width: 100%;
+    height: 80px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+
+}
+.nav-link{
+    color: white;
+     align-items: flex-end;
+    font-size: 2.5rem;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: end;
+    position: sticky;
+    top: 0px;
+}
+
+ 
