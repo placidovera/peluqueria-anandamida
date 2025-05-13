@@ -153,7 +153,7 @@ li a {
   grid-area: titulo2;
   display: flex;
   justify-content: space-around;
-  background-image: url(/images/dibujo.png);
+  background-image: url(/images/dibu.png);
   background-size: cover;
 }
 
@@ -382,6 +382,9 @@ textarea {
   text-align: center;
 }
 
+/*Variables*/
+/*Mixin*/
+/*Letra google font*/
 /*Mobile pagina inicio grid*/
 @media (max-width: 480px) {
   .index-grid {
@@ -396,8 +399,11 @@ textarea {
     width: 350px;
   }
   header {
-    width: 100%;
+    width: 106%;
     flex-direction: column;
+  }
+  footer {
+    width: 106%;
   }
   nav {
     width: 100%;
@@ -419,7 +425,7 @@ textarea {
     padding: 30px;
   }
   .trabajos {
-    width: 100%;
+    width: 106%;
   }
   .titulos {
     display: flex;
@@ -456,7 +462,7 @@ textarea {
     display: none;
   }
   h3 {
-    display: none;
+    font-size: 1.5rem;
   }
   .linea {
     display: none;
@@ -470,14 +476,14 @@ textarea {
   /*pagina precios grid*/
   .precios-grid {
     display: grid;
-    grid-template-areas: "titulo" " precios";
+    grid-template-areas: "titulo" "precios";
     grid-template-columns: 100%;
     grid-template-rows: 100px 900px;
   }
   /*tabla en pagina precios*/
   table {
-    font-size: 1.1rem;
-    padding: 2.5px;
+    font-size: 1.5rem;
+    padding: 2px;
   }
   .consultas-grid {
     display: grid;
@@ -489,12 +495,6 @@ textarea {
   .div-input {
     width: 99%;
   }
-  .logo-flotante {
-    display: none;
-  }
 }
-/*Variables*/
-/*Mixin*/
-/*Letra google font*/
 
 /*# sourceMappingURL=estilo.css.map */

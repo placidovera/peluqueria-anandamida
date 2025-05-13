@@ -50,7 +50,7 @@ font-size: 1rem;
     padding: 30px;
 }
 .trabajos{
-    width: 100%;
+    width: 106%;
 
 }
 .titulos{
@@ -94,7 +94,7 @@ grid-template-areas:
     display: none;
 }
 h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .linea{
     display: none;
@@ -120,7 +120,7 @@ grid-template-rows: 100px 900px;
 /*tabla en pagina precios*/
 
 table{
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 2px;
 }
 .consultas-grid{
@@ -137,9 +137,6 @@ table{
 }
 .div-input{
 width: 99%;
-}
-.logo-flotante{
-  display: none;
 }
 }@media (min-width: 481px) and (max-width: 769px) {
 }
