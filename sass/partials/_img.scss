@@ -1,0 +1,22 @@
+
+/*Imagenes*/
+.ana{
+width: 400px;
+margin: 5px;
+}
+.ana-bootstraps{
+    width: 400px;
+    margin: 5px;
+}
+.peluqueria{
+border: solid;
+width: 700px;
+height: 700px;
+}
+.imagenes{
+   padding: 7%;
+}
+.mapa{
+    @include radiuswidthpadding;
+    text-align: center;
+}

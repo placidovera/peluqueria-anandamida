@@ -1,0 +1,19 @@
+ /*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    margin-left: 0;
+}
+/*import partials*/
+@import "./partials/generales";
+@import "./partials/header&footer";
+@import "./partials/grid";
+@import "./partials/clases";
+@import "./partials/precios";
+@import "./partials/form";
+@import "./partials/img";
+@import "./partials/variables-mixin";
+@import "./partials/medias";
+@import "./partials/mediaq";

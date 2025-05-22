@@ -1,0 +1,52 @@
+/*body pagina comentarios*/
+textarea{
+    @include radiuswidthpadding;
+    background-color: antiquewhite;
+    color:black;
+ }
+ /*body pagina turnos*/
+.container1 button {
+   background-color:$color-violeta;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   font-size: 20px;
+   border-radius: 5px;
+   transition: background-color 0.2s;
+}
+
+.container {
+    @include radiuswidthpadding;
+   background-color:$color-rosaviejo;
+   max-width: 600px;
+   margin: auto;
+  
+}
+.container textarea,.container input {
+   border: 2px solid $color-rosaclaro;
+   border-radius: 5px;
+   font-size: 20px;
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+}
+
+.container button {
+   background-color: $color-rosaclaro;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   font-size: 20px;
+   border-radius: 5px;
+   transition: background-color 0.2s;
+}
+
+.container button:hover {
+   background-color: $color-rosa2;
+   transform: scale(1);
+}
+.label{
+   color: white;
+   font-size: 2rem;
+   margin: 10px 0 5px;
+}

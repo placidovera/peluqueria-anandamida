@@ -1,0 +1,20 @@
+/*Variables*/
+$colorrosa:#ff5f5f;
+$colorgris:#2d2d2d;
+$color-rosa:#de5e54;
+$color-rosa2:#f5a3a4;
+$color-violeta:#4c2c5f;
+$color-rosaviejo:#a96667;
+$color-rosaclaro:#c88487;
+
+/*Mixin*/
+@mixin radiuswidthpadding{
+     
+     font-size: 1.5rem; 
+     padding: 20px;
+     border-radius: 10px;
+     width: 100%;
+
+}
+/*Letra google font*/
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');

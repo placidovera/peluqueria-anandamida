@@ -1,0 +1,69 @@
+/*Variables*/
+$colorrosa:rgb(255,95,95);
+$colorgris:#2d2d2d;
+$color-rosa:#de5e54;
+$color-rosa2:#f5a3a4;
+$color-violeta:#4c2c5f;
+$color-rosaviejo:#a96667;
+$color-rosaclaro:#c88487;
+
+/*Mixin*/
+@mixin radiuswidthpadding{
+     
+     font-size: 1.5rem; 
+     padding: 20px;
+     border-radius: 10px;
+     width: 100%;
+
+}
+/*Letra google font*/
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+/*html en todas las paginas*/
+html{
+    font-size: 62.5%;
+    text-shadow: 1px 2px 7px rgba(0,0, 0,1);
+    font-family: "Delius", cursive;
+}
+/*body todas las paginas*/
+body{
+    background-image: url(../images/fondo.png);
+}
+/*elementos para todas las paginas*/
+ul{
+    font-size: 2.5rem;
+    list-style-type: none;
+}
+li :hover{
+        border-radius: 20px;
+        background-color:$color-rosaclaro;
+}
+a{
+        font-size: 2.5rem;
+        text-decoration: none;
+}
+p{
+    font-size: 2rem;
+    padding: 30px;
+}
+h1{
+    padding: 15px;
+    text-align:center;
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+h2{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+div{
+    padding: 30px;
+}
+h3{
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  margin-top: 14%;
+}

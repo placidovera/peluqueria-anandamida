@@ -1,0 +1,128 @@
+
+/*pagina de inicio grid*/
+.index-grid{
+display:grid;
+grid-template-areas:
+"titulos1 titulos1 titulos1"
+". pelu ."
+"titlug titlug titlug"
+"banner banner banner"
+"titulo2 titulo2 titulo2"
+" trabajo trabajo trabajo";
+
+grid-template-columns:0% 100% 0% ;
+grid-template-rows: 100px 700px 100px 200px 400px 450px;
+justify-content: center;
+}
+.titulo2{
+    grid-area: titulos1;
+}
+.tit-lugar{
+    grid-area: titlug;
+    text-align: center;
+}
+.banner{
+    grid-area: banner;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+}
+.titulos{
+    grid-area: titulo2;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/dibu.png);
+    background-size: cover;
+}
+.cont-pelu{
+    grid-area: pelu;
+     display: flex;
+    justify-content: center;
+}
+.trabajos{
+    grid-area: trabajo;
+    background-color:$color-rosaclaro;
+    display: flex;
+    justify-content: space-around;
+}
+/*pagina nosotros grid*/
+.nosotros-grid{
+    display: grid;
+    grid-template-areas: 
+
+"titulo3 titulo3 titulo3"
+"imagenes imagenes imagenes"
+"titulo4 titulo4 titulo4"
+"historia historia historia";
+
+grid-template-columns: 0% 70% 30%;
+grid-template-rows: 100px 600px 100px 400px;
+justify-content: center;
+
+}
+.galeria{
+ grid-area: titulo3;
+}
+.titulo-historia{
+grid-area: titulo4;
+text-align: center;
+}
+.imagenes{
+grid-area: imagenes;
+padding: 2%;
+display:flex;
+justify-content: space-between;
+}
+.historia{
+    grid-area: historia;
+    display: flex;
+    justify-content: space-around;
+}
+/*pagina precios grid*/
+.precios-grid{
+    display: grid;
+    grid-template-areas:
+
+"titulo titulo titulo"
+". precios ."
+". . .";
+grid-template-columns: 20% 70% 20%;
+grid-template-rows: 100px 600px 100px;
+justify-content: center;
+
+}
+.titulo1{
+grid-area: titulo;
+}
+.precio{
+    grid-area: precios;
+}
+/*pagina de consultas grid*/
+.consultas-grid{
+
+    display:grid;
+    grid-template-areas:
+
+    "titulos5 titulos5 titulos5"
+    "titulos6 titulos6 titulos6"
+    "area area area"
+    "boton1 . boton2";
+    
+    grid-template-columns:30% 30% 30% ;
+    grid-template-rows: 100px 70px 300px 60px;
+    justify-content: center;
+}
+.consultas{
+    grid-area: titulos5;
+}
+.titulo-consultas{
+
+    grid-area: titulos6;
+}
+.t-area{
+    grid-area: area;
+    display: flex;
+    justify-content: center;
+
+}

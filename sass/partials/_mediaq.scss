@@ -1,0 +1,161 @@
+/*Mobile pagina inicio grid*/
+@media(max-width :480px){
+html{
+    width: 106% !important;;
+}
+ .index-grid {
+        display:grid;
+        grid-template-areas:
+      "titulos1"
+      "pelu"
+      "titlug"
+      "banner"
+      "titulo2"
+      "trabajo";
+
+        grid-template-columns:100%;
+        grid-template-rows: 100px 750px 150px 400px 250px 220px;
+        justify-content: center;
+
+    }
+    
+.peluqueria{
+        border: solid;
+        width:106%;
+
+    }  
+    
+header{
+    width:106%;
+    flex-direction: column;
+}
+footer{
+    width: 106%;
+}
+nav{
+    width: 100%;
+}
+a{
+    font-size: 1.1rem;
+}
+ul{
+font-size: 1rem;
+}
+.ana{
+    width: 400px;
+}
+.ana-bootstraps{
+    margin: -20px;
+
+}
+.cont-pelu{
+    justify-content: flex-start;
+    padding: 30px;
+}
+.trabajos{
+    width: 106%;
+}
+.tit-lugar{
+    width: 106%;
+}
+.titulo2{
+    width: 106%;
+}
+.titulos{
+   width: 106%; 
+}
+.banner{
+    width: 106%;
+}
+
+div{
+    padding: 10px;
+}
+h2{
+    height: 40px;
+    font-size: 1.5rem;
+    letter-spacing: 7px;
+    text-align: center;
+}
+.imagenes{
+    flex-direction: column;
+    height: 150px;
+    width: 106%;
+}
+/*Grid nosotros mobile*/
+.nosotros-grid{
+    display: grid;
+grid-template-areas: 
+"titulo3"
+"imagenes"
+"titulo4"
+"historia";
+
+        grid-template-columns: 85%;
+        grid-template-rows: 100px 1600px 100px 1000px;
+        justify-content: center;
+    
+}
+.titulo-historia{
+    grid-area: titulo4;
+    width: 106%;
+}
+.historia{
+    width: 106%;
+}
+.nena{
+    display: none;
+}
+.nene{
+    display: none;
+}
+h3{
+    font-size: 1.5rem;
+}
+.linea{
+    display: none;
+}
+p{
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 2rem;
+}
+
+/*pagina precios grid*/
+.precios-grid{
+    display: grid;
+grid-template-areas:
+
+  "titulo"
+  "precios";
+
+grid-template-columns:100%;
+grid-template-rows: 100px 500px;
+}
+/*tabla en pagina precios*/
+
+table{
+    font-size: 1.7rem;
+    padding: 2px;
+}
+.consultas-grid{
+    display:grid;
+    grid-template-areas:
+    "titulos5 titulos5 titulos5"
+    "titulos6 titulos6 titulos6"
+    "area area area"
+    "boton1 . boton2";
+    
+    grid-template-columns:30% 30% 30%;
+    grid-template-rows: 100px 70px 330px 60px;
+    justify-content: center;
+}
+.div-input{
+width: 99%;
+}
+.consultas-grid{
+    width: 106%;
+}
+}@media (min-width: 481px) and (max-width: 768px) {
+}

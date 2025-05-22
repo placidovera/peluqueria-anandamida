@@ -1,0 +1,270 @@
+/*Escritorio*/
+@media (min-width: 1199.98px)  {
+   
+}
+/*Fin Escritorio*/
+
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+ 
+header{
+    width:100%;
+
+    nav{
+        flex-direction: column;
+        justify-content: end;
+        
+        ul li {
+           margin-right: 10px;
+        }
+
+    }
+}
+.index-grid {
+    display: grid;
+    grid-template-areas:
+        "titulos1 titulos1 titulos1"
+        ". pelu ."
+        "titlug titlug titlug"
+        "banner banner banner"
+        "titulo2 titulo2 titulo2"
+        " trabajo trabajo trabajo";
+    grid-template-columns: 0% 110% 0%;
+    grid-template-rows: 100px 700px 100px 300px 400px 450px;
+    justify-content: center;
+}
+footer {
+    height: 330px;
+    width: 105%;
+}
+.precios-grid {
+    display: grid;
+    grid-template-areas:
+        "titulo"
+        "precios"
+        ".";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 1000px 100px;
+    justify-content: center;
+}
+.nena{
+    display: none;
+}
+.nene{
+    display: none;
+}  
+
+
+}
+
+/*landscape*/
+@media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+
+header{
+    width:105%;
+
+    nav{
+
+        justify-content: end;
+        
+        ul li {
+  margin-right: 10px; /* Espacio entre elementos */
+}
+
+    }
+}
+.index-grid {
+    display: grid;
+    grid-template-areas:
+        "titulos1 titulos1 titulos1"
+        ". pelu ."
+        "titlug titlug titlug"
+        "banner banner banner"
+        "titulo2 titulo2 titulo2"
+        " trabajo trabajo trabajo";
+    grid-template-columns: 0% 110% 0%;
+    grid-template-rows: 100px 700px 100px 300px 400px 450px;
+    justify-content: center;
+}
+footer {
+    height: 330px;
+    width: 105%;
+}
+.precios-grid {
+    display: grid;
+    grid-template-areas:
+        "titulo"
+        "precios"
+        ".";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 1000px 100px;
+    justify-content: center;
+}
+.nena{
+    display: none;
+}
+.nene{
+    display: none;
+}
+}
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+   
+ }
+/*landscape*/
+@media (min-width: 375px) and (max-width:480px) {
+  /*Mobile pagina inicio grid*/
+
+ .index-grid {
+        display:grid;
+        grid-template-areas:
+      "titulos1"
+      " pelu"
+      "titlug"
+      "banner"
+      "titulo2"
+      " trabajo";
+
+        grid-template-columns:690%;
+        grid-template-rows: 100px 750px 150px 400px 250px 220px;
+        justify-content: center;
+
+    }
+    
+.peluqueria{
+        border: solid;
+        width: 350px;
+    }  
+    
+header{
+    width: 400%;
+    flex-direction: column;
+}
+footer{
+    width: 106%;
+}
+nav{
+    width: 400%;
+}
+a{
+    font-size: 1.1rem;
+}
+ul{
+font-size: 1rem;
+}
+.ana{
+    width: 400px;
+}
+.ana-bootstraps{
+    margin: -20px;
+
+}
+.cont-pelu{
+    justify-content: right;
+    padding: 30px;
+}
+.trabajos{
+    width: 106%;
+
+}
+div{
+    padding: 10px;
+}
+h2{
+    height: 40px;
+    font-size: 2rem;
+    letter-spacing: 7px;
+}
+.imagenes{
+    flex-direction: column;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/*fin movil*//* Escritorio */
+@media (min-width: 1199.98px) { 
+    /* Estilos específicos para pantallas grandes */
+    body {
+        background-color: #f4f4f4;
+    }
+    .contenedor {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/* Tablet Portrait */
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) { 
+    /* Ajustes para tablets en orientación vertical */
+    .contenedor {
+        width: 80%;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Tablet Landscape */
+@media (min-width: 991.98px) and (max-width: 1199.98px) and (orientation: landscape) { 
+    /* Ajustes para tablets en orientación horizontal */
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .imagenes {
+        flex-direction: row;
+    }
+}
+
+/* Móvil Portrait */
+@media (max-width: 575.98px) and (orientation: portrait) { 
+    /* Estilos para móviles en orientación vertical */
+    body {
+        background-color: #e0f7fa;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .contenedor {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Móvil Landscape */
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation: landscape) { 
+    /* Estilos para móviles en orientación horizontal */
+    nav {
+        flex-direction: row;
+        align-items: center;
+    }
+    .contenedor {
+        width: 90%;
+        margin: auto;
+    }
+}
