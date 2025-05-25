@@ -362,27 +362,153 @@ textarea {
 /*Variables*/
 /*Mixin*/
 /*Letra google font*/
-/*Escritorio*/
-/*Fin Escritorio*/
-/*Tablet*/
-/*Portrait*/
-@media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+@media (min-width: 481px) and (max-width: 768px) {
   header {
-    width: 100%;
+    width: 180%;
+    flex-direction: column;
   }
   header nav {
     flex-direction: column;
     justify-content: end;
+    width: 100%;
+  }
+  header nav ul li {
+    margin-right: 12px;
+  }
+  .precios-grid {
+    display: grid;
+    grid-template-areas: "titulo" "precios" ".";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 600px 100px;
+  }
+  table {
+    font-size: 2.4rem;
+  }
+  .consultas-grid {
+    display: grid;
+    grid-template-areas: "titulos5 titulos5 titulos5" "titulos6 titulos6 titulos6" "area area area" "boton1 boton2 .";
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100px 70px 600px 60px;
+    justify-content: center;
+  }
+  .titulo2 {
+    grid-area: titulos1;
+    text-align: center;
+    width: 180%;
+  }
+  .cont-pelu {
+    width: 180%;
+  }
+  .index-grid {
+    grid-template-rows: 100px 700px 180px 400px 450px 550px;
+  }
+  .banner {
+    width: 180%;
+  }
+  .tit-lugar {
+    width: 170%;
+  }
+  .consultas {
+    width: 180%;
+  }
+  .t-area {
+    width: 180%;
+  }
+  footer {
+    width: 180%;
+  }
+  .titulo-consultas {
+    display: none;
+  }
+  .nene {
+    display: none;
+  }
+  .nena {
+    display: none;
+  }
+  .nosotros-grid {
+    display: grid;
+    grid-template-areas: "titulo3" "imagenes" "titulo4" "historia";
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 450px 100px 800px;
+  }
+  .titulo-historia {
+    width: 180%;
+  }
+  .historia {
+    width: 180%;
+  }
+  .galeria {
+    width: 180%;
+  }
+  .imagenes {
+    width: 180%;
+  }
+  .mt-5 {
+    width: 131%;
+  }
+  .mapa {
+    width: 110%;
+  }
+  h2 {
+    width: 110%;
+  }
+  .text-center {
+    width: 130%;
+  }
+  footer {
+    height: 400px;
+  }
+  .titulo1 {
+    width: 180%;
+  }
+  .precio {
+    width: 180%;
+  }
+}
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+  header {
+    width: 105%;
+    flex-direction: column;
+  }
+  header nav {
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
   }
   header nav ul li {
     margin-right: 10px;
   }
+  table {
+    font-size: 2.1rem;
+  }
   .index-grid {
-    display: grid;
-    grid-template-areas: "titulos1 titulos1 titulos1" ". pelu ." "titlug titlug titlug" "banner banner banner" "titulo2 titulo2 titulo2" " trabajo trabajo trabajo";
     grid-template-columns: 0% 110% 0%;
     grid-template-rows: 100px 700px 100px 300px 400px 450px;
+  }
+  .nosotros-grid {
+    display: grid;
+    grid-template-areas: "titulo3" "imagenes" "titulo4" "historia";
+    grid-template-columns: 108%;
+    grid-template-rows: 10px 570px 80px 560px;
+  }
+  .consultas-grid {
+    grid-template-rows: 100px 70px 770px 60px;
+  }
+  .titulo-consultas {
+    text-align: center;
+  }
+  .imagenes {
     justify-content: center;
+  }
+  table {
+    font-size: 1.7rem;
+    padding: 3.5rem;
+  }
+  p {
+    margin: 3%;
   }
   footer {
     height: 330px;
@@ -392,14 +518,17 @@ textarea {
     display: grid;
     grid-template-areas: "titulo" "precios" ".";
     grid-template-columns: 100%;
-    grid-template-rows: 100px 1000px 100px;
-    justify-content: center;
+    grid-template-rows: 100px 700px 100px;
+    text-align: -webkit-center;
   }
   .nena {
     display: none;
   }
   .nene {
     display: none;
+  }
+  a {
+    text-align: center;
   }
 }
 /*landscape*/
@@ -498,28 +627,6 @@ textarea {
     height: 150px;
   }
 }
-/*fin movil*/ /* Escritorio */
-@media (min-width: 1199.98px) {
-  /* Estilos específicos para pantallas grandes */
-  body {
-    background-color: #f4f4f4;
-  }
-  .contenedor {
-    width: 60%;
-    margin: auto;
-  }
-}
-/* Tablet Portrait */
-@media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
-  /* Ajustes para tablets en orientación vertical */
-  .contenedor {
-    width: 80%;
-    padding: 20px;
-  }
-  h1 {
-    font-size: 2.5rem;
-  }
-}
 /* Tablet Landscape */
 @media (min-width: 991.98px) and (max-width: 1199.98px) and (orientation: landscape) {
   /* Ajustes para tablets en orientación horizontal */
@@ -534,15 +641,21 @@ textarea {
 /* Móvil Portrait */
 @media (max-width: 575.98px) and (orientation: portrait) {
   /* Estilos para móviles en orientación vertical */
-  body {
-    background-color: #e0f7fa;
+  .titulos {
+    width: 180%;
   }
-  h1 {
-    font-size: 2rem;
+  .trabajos {
+    width: 180%;
+  }
+  a {
+    text-align: center;
+  }
+  nav {
+    align-items: center;
   }
   .contenedor {
-    width: 100%;
-    padding: 10px;
+    width: 90%;
+    margin: auto;
   }
 }
 /* Móvil Landscape */
@@ -633,8 +746,7 @@ textarea {
     display: grid;
     grid-template-areas: "titulo3" "imagenes" "titulo4" "historia";
     grid-template-columns: 85%;
-    grid-template-rows: 100px 1600px 100px 1000px;
-    justify-content: center;
+    grid-template-rows: 100px 1900px 100px 1000px;
   }
   .titulo-historia {
     grid-area: titulo4;
@@ -677,7 +789,7 @@ textarea {
     display: grid;
     grid-template-areas: "titulos5 titulos5 titulos5" "titulos6 titulos6 titulos6" "area area area" "boton1 . boton2";
     grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 100px 70px 330px 60px;
+    grid-template-rows: 100px 70px 420px 60px;
     justify-content: center;
   }
   .div-input {
