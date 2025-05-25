@@ -778,12 +778,13 @@ textarea {
     display: grid;
     grid-template-areas: "titulo" "precios";
     grid-template-columns: 100%;
-    grid-template-rows: 100px 500px;
+    grid-template-rows: 100px 600px;
   }
   /*tabla en pagina precios*/
   table {
     font-size: 1.7rem;
     padding: 2px;
+    margin: 9%;
   }
   .consultas-grid {
     display: grid;
