@@ -782,8 +782,7 @@ textarea {
   /*tabla en pagina precios*/
   table {
     font-size: 1.6rem;
-    padding: 2px;
-    margin: 9%;
+    padding: 1px;
   }
   .consultas-grid {
     display: grid;
